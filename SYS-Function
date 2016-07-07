@@ -5,7 +5,7 @@ c1p
 SYS函数中x为10进制数据，n为要转换的进制(二至九进制均可），如：10000转换为8进制
 
 输入SYS(10000,8)
-
+by the way~ 用options(scipen=200)改变科学计数法
 
 SYS<-function(x,n){
     if(n>10){
