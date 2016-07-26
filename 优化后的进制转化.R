@@ -5,3 +5,4 @@ f = function(n, k = 2) {
     if (n < 0) return(paste0("-", f(-n, k)))
     do.call(paste0, as.list(floor(n / k^((ceiling(log(n, k)):1-1))) %% k))
 }
+
